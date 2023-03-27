@@ -12,7 +12,7 @@ public class BinOps {
         return result;
     }
 
-    public String mult(String a, String b) {
+    public String mult(String a, String b) throws NumberFormatException {
         String result = null;
         try {
             int aBin = Integer.parseInt(a, 2);
